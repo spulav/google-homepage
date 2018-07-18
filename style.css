@@ -3,8 +3,8 @@ body {
 	color: #222;
 	font-size: small;
 	font-family: arial, sans-serif;
-	display: block;
 	width: 100%;
+	height: 100%;
 }
 
 a {
@@ -14,6 +14,10 @@ a {
 
 a:hover {
 	text-decoration: underline;
+}
+
+main {
+	margin-bottom: 100px;
 }
 
 .nav {
@@ -42,7 +46,8 @@ a:hover {
 
 .footer {
 	background-color: #f2f2f2;
-	margin-top: 150px;
+	border-top: 1px solid #e4e4e4;
+	color: #666;
 }
 
 .googlelogo {
@@ -56,11 +61,6 @@ a:hover {
 	display: flex;
 }
 
-.main {
-	position: fixed;
-	margin: 0 0 0 0;
-}
-
 form {
 	margin-right: auto;
 	margin-left: auto;
@@ -72,10 +72,34 @@ form input {
 }
 
 form input[type=text] {
-	margin: 20px auto;
+	margin: 30px auto;
 	padding: 10px;
-	border: 1px solid #222;
-	width: 550px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #e7e7e7;
+	box-shadow: 0 1px 2px 0.5px #ccc;
+	width: 650px;
+	background-image: url(images/googlemicrophone.png);
+	background-position: 98% 50%;
+	background-size: 25px 25px;
+	background-repeat: no-repeat;
+	font-family: arial, sans-serif;
+}
+
+form input[type=submit] {
+	height: 40px;
+	width: 130px;
+	margin-right: 10px;
+	font-size: 13px;
+	font-weight: bold;
+	border-radius: 2px;
+	background-color: #f2f2f2;
+	color: #757575;
+	font-family: arial, sans-serif;
+}
+
+form input[type=text]:hover {
+	box-shadow: 0 1.5px 2.5px 1px #ccc;
 }
 
 .searchholder {
@@ -84,8 +108,13 @@ form input[type=text] {
 
 button {
 	background-color: rgb(66,133,244);
-	font-weight: bold;
+	font-weight: 700;
+	font-size: 13px;
 	color: white;
 	padding: 5px 10px;
 	border: none;
+	width: 70px;
+	height: 30px;
+	border-radius: 1px;
+	font-family: arial, sans-serif;
 }
