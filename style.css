@@ -1,0 +1,41 @@
+body {
+	background: #fff;
+	color: #222;
+	font-size: small;
+	font-family: arial, sans-serif;
+	display: block;
+	width: 100%;
+}
+
+.nav {
+	display: flex;
+	height: 40px;
+	align-items: center;
+	margin: 10px;
+}
+
+.left {
+	margin-right: auto;
+}
+
+.nav li {
+	padding: 3px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+.googlelogo {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.searchbar {
+	display: flex;
+}
+
+form {
+	margin-right: auto;
+	margin-left: auto;
+}
