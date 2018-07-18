@@ -7,6 +7,15 @@ body {
 	width: 100%;
 }
 
+a {
+	color: #222;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 .nav {
 	display: flex;
 	height: 40px;
@@ -33,16 +42,23 @@ body {
 
 .footer {
 	background-color: #f2f2f2;
+	margin-top: 150px;
 }
 
 .googlelogo {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
+	margin-top: 100px;
 }
 
 .searchbar {
 	display: flex;
+}
+
+.main {
+	position: fixed;
+	margin: 0 0 0 0;
 }
 
 form {
@@ -52,6 +68,18 @@ form {
 
 form input {
 	border-radius: 0;
+	border: none;
+}
+
+form input[type=text] {
+	margin: 20px auto;
+	padding: 10px;
+	border: 1px solid #222;
+	width: 550px;
+}
+
+.searchholder {
+	text-align: center;
 }
 
 button {
@@ -59,4 +87,5 @@ button {
 	font-weight: bold;
 	color: white;
 	padding: 5px 10px;
+	border: none;
 }
